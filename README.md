@@ -4,7 +4,7 @@ This guide will walk you through setting up a React project where you can test a
 
 ## Setup Instructions
 
-### 1. Create a New React Project
+### Create a New React Project
 
 First, create a new React project using Vite. 
 
@@ -15,7 +15,7 @@ cd react-tailwind-and-bootstrap-intro
 
 ## [TAILWIND CSS](https://tailwindcss.com/docs/installation)
 
-### 2. Install and Configure Tailwind CSS
+### Install and Configure Tailwind CSS
 
 ```bash
 npm install -D tailwindcss postcss autoprefixer
