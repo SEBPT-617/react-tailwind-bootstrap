@@ -72,13 +72,13 @@ Then, import Bootstrap’s CSS in your `main.js` or  `App.jsx` file:
 import 'bootstrap/dist/css/bootstrap.min.css';
 ```
 
-### Create Components Using Tailwind and Bootstrap
+## Create Components Using Tailwind and Bootstrap
 Now that both libraries are set up, you can create separate components styled with each one. Here are examples of simple card components:
 
-#### Tailwind Component
+### Tailwind Component
 
 ```jsx
-// src/TailwindCard.js
+// src/TailwindCard.jsx
 import React from 'react';
 
 const TailwindCard = () => {
@@ -97,10 +97,10 @@ const TailwindCard = () => {
 
 export default TailwindCard;
 ```
-#### Bootstrap Component
+### Bootstrap Component
 
 ```jsx
-// src/BootstrapCard.js
+// src/BootstrapCard.jsx
 import React from 'react';
 
 const BootstrapCard = () => {
@@ -122,10 +122,10 @@ const BootstrapCard = () => {
 export default BootstrapCard;
 ```
 
-#### Using Both Components in App.jsx
+### Using Both Components in App.jsx
 
 ```jsx
-// src/App.js
+// src/App.jsx
 import TailwindCard from './TailwindCard';
 import BootstrapCard from './BootstrapCard';
 
@@ -151,7 +151,7 @@ export default App;
 
 
 ### Benefits and Pitfalls
-#### Tailwind
+### Tailwind
 Benefits:
 
 1. **Utility-First Approach**: Tailwind provides low-level utility classes that allow for highly customizable designs. This approach gives developers precise control over styling without needing to write custom CSS.
@@ -165,7 +165,7 @@ Pitfalls:
 2. **Verbose Code**: Because you apply all styling directly to your HTML/JSX, Tailwind can make code more verbose and harder to read, especially for complex designs.
 3. **Consistency Challenges**: Since Tailwind doesn’t enforce component styles, it’s easy for different parts of a project to look inconsistent without a design system or clear guidelines.
 
-#### Bootstrap
+### Bootstrap
 Benefits:
 
 1. **Predefined Components**: Bootstrap comes with a large set of pre-styled components (buttons, cards, modals, etc.), which makes it quick to set up common UI elements without writing custom styles.
