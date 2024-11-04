@@ -13,17 +13,24 @@ function App() {
         <TailwindCard />
         <BootstrapCard />
       </div>
+    
+{/* Tailwind Button Example */}
+      <button
+      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:scale-105"
+      >Tailwind</button>
 
-      <Button
-        variant='outline-warning'
-        style={{
-          border: "none",
-          backgroundColor: "purple",
-        }}
-      >
-        Bootstrap
-      </Button>
+{/* Bootstrap Bautton Component */}
+<div className="flex align-items-start gap-4 flex-col my-6">
+      <Button 
+      style={{
+        border: 'none',
+        backgroundColor: 'purple'
+        }}>
+      Bootstrap</Button>
 
+    </div>
+
+{/* Bootstrap card component example */}
       <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
@@ -35,10 +42,6 @@ function App() {
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
     </Card>
-
-      <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-200 ease-in-out transform hover:scale-105'>
-        Tailwind
-      </button>
     </div>
   );
 }

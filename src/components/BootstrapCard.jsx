@@ -1,4 +1,6 @@
-// src/BootstrapCard.jsx
+// This component is utilizing the Bootstrap CSS classes directly (https://getbootstrap.com/docs/3.4/css/).  To see components, look in the App.jsx file
+
+
 const BootstrapCard = () => {
   return (
     <div className="card" style={{ width: '20rem'}}>
