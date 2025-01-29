@@ -17,11 +17,6 @@ cd react-tailwind-and-bootstrap-intro
 
 ### Install and Configure Tailwind CSS
 
-```bash
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-```
-
 1. Install Tailwind and its dependencies:
 
 ```bash
